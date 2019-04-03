@@ -1,6 +1,11 @@
 #ifndef ELF32_H
 #define ELF32_H
-/* This is my ELF */
+/* 
+	This is my ELF
+	Don't use my ELF for your application.
+	#include <elf.h> instead.
+	Still, my ELF relies on specification of ELF
+*/
 #include <stdint.h>
 
 /* Global data size */
